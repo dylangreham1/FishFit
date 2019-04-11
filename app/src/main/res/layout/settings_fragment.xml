@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings Fragment"
+        android:textSize="30sp"
+        android:layout_alignParentTop = "true">
+    </TextView>
+
+    <Button
+    android:id="@+id/notificationsbuffer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft = "true"
+    android:layout_centerInParent = "true"
+    android:text="Notifications Test" />
+
+    <Button
+        android:id="@+id/resetbuffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent = "true"
+        android:text="Reset Password" />
+
+
+</RelativeLayout>
