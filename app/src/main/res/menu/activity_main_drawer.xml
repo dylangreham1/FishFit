@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/icon_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_quality"
+        android:icon="@drawable/icon_water"
+        android:title="Water" />
+    <item
+        android:id="@+id/nav_feeding"
+        android:icon="@drawable/icon_food"
+        android:title="Feeding" />
+    <item
+        android:id="@+id/nav_stocking"
+        android:icon="@drawable/icon_fish"
+        android:title="Stocking" />
+    <item
+        android:id="@+id/nav_calendar"
+        android:icon="@drawable/icon_calendar"
+        android:title="Calendar" />
+  </group>
+
+  <item android:title="Communicate">
+    <menu>
+      <item
+          android:id="@+id/nav_share"
+          android:icon="@drawable/icon_settings"
+          android:title="Share" />
+      <item
+          android:id="@+id/nav_settings"
+          android:icon="@drawable/icon_settings"
+          android:title="Settings" />
+    </menu>
+  </item>
+
+</menu>

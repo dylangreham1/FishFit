@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quality Fragment"
+        android:textSize="30sp"
+        android:layout_alignParentTop = "true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/buffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+
+
+
+
+        "
+        android:layout_below="@+id/heading"
+
+        android:textSize="30sp"
+        android:layout_alignParentTop = "true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Temp (Celcius):"
+        android:layout_below="@+id/buffer"
+        android:textSize="20sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water Temp (Farenheit):"
+        android:layout_below="@+id/txt1"
+        android:textSize="20sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:text="Water Level (%):"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/explaination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent = "true"
+        android:text="(Cant complete this page until I get my NodeMCU board for arduino)"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+</RelativeLayout>

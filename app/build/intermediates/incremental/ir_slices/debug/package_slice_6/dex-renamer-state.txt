@@ -1,0 +1,4 @@
+#Thu Apr 11 10:29:25 BST 2019
+base.0=C\:\\Users\\Dylan\\Desktop\\FishFit\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

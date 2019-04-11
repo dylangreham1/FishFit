@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "809227122867",
+    "firebase_url": "https://fishfit-d2482.firebaseio.com",
+    "project_id": "fishfit-d2482",
+    "storage_bucket": "fishfit-d2482.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809227122867:android:4d56e0ab73f29216",
+        "android_client_info": {
+          "package_name": "com.example.fishfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809227122867-p2oci7rl29mjfr206hv5r738tfrn7nua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fishfit",
+            "certificate_hash": "9422c49ea632b8bb76e2be3188f3834e216fd6dd"
+          }
+        },
+        {
+          "client_id": "809227122867-ngnbo1q57u9m31cdq71bl3lee29r5890.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNKqpEBfICZnRbppdE-r1Hvws-3eUBruY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809227122867-ngnbo1q57u9m31cdq71bl3lee29r5890.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
